@@ -1,0 +1,4 @@
+rootProject.name = 'xiaoyaoji'
+include ':xiaoyaoji-docformatter'
+include ':xiaoyaoji-web'
+include ':xiaoyaoji-config'

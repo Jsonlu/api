@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'cn.com.xiaoyaoji'
+version = '2.0.1'
+
+description = """"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+
+repositories {
+
+    maven { url "http://repo.maven.apache.org/maven2" }
+}

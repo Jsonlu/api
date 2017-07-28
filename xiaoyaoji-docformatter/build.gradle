@@ -1,0 +1,6 @@
+
+description = ''
+dependencies {
+    compile group: 'com.itextpdf', name: 'itextpdf', version:'5.5.11'
+    compile group: 'com.itextpdf.tool', name: 'xmlworker', version:'5.5.11'
+}

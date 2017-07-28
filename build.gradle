@@ -1,0 +1,35 @@
+allprojects {
+    apply plugin: 'maven'
+
+    group = 'cn.com.xiaoyaoji'
+    version = '2.0.1'
+}
+
+subprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+
+    repositories {
+        mavenLocal()
+
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        maven { url "https://github.com/psiegman/mvn-repo/raw/master/releases" }
+        maven { url "http://repo.maven.apache.org/maven2" }
+        maven { url "https://repo.itextsupport.com/releases" }
+    }
+
+
+    dependencies {
+        compile group: 'junit', name: 'junit', version: '4.12'
+        compile group: 'log4j', name: 'log4j', version: '1.2.17'
+        compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.13'
+        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.13'
+        compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+        compileOnly group: 'javax.websocket', name: 'javax.websocket-api', version: '1.1'
+        compileOnly group: 'javax.servlet', name: 'jsp-api', version: '2.0'
+    }
+
+
+}
