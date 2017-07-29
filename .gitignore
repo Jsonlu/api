@@ -9,3 +9,8 @@ gradle/
 .gradle/
 log/
 build/
+!/1.txt
+1.txt
+xiaoyaoji-config/out/
+xiaoyaoji-docformatter/out/
+xiaoyaoji-web/out/
