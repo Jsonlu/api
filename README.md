@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Jsonlu/api.svg?branch=master)](https://travis-ci.org/Jsonlu/api)
 06/09:
 1. 2.0重构
 更新方式：
