@@ -18,4 +18,8 @@ language: java
 jdk:
   - oraclejdk8
 script:
+  - gradle check
   - gradle xiaoyaoji-web:assemble
+branches:
+  only:
+    - master
